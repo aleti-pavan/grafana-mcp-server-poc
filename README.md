@@ -1,4 +1,3 @@
-````markdown
 # Grafana MCP Local POC - Managing grafana with Claude Desktop or ChatGPT's Codex
 
 This project sets up a local Grafana and Prometheus environment and connects it to desktop MCP clients such as Claude Desktop and Codex / ChatGPT Desktop using the `grafana/mcp-grafana` Docker image.
@@ -198,4 +197,3 @@ Use this command when you want to completely clean the project state.
 Documentation for connecting MCP servers from ChatGPT Desktop:
 
 [https://learn.chatgpt.com/docs/extend/mcp?surface=app](https://learn.chatgpt.com/docs/extend/mcp?surface=app)
-````

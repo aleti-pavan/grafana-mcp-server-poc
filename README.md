@@ -1,5 +1,7 @@
 # Grafana MCP Local POC
 
+![Architecture diagram](docs/mcp-grafana-poc1.png)
+
 Run Grafana + Prometheus locally and connect them to desktop MCP clients — **Claude Desktop** and **Codex / ChatGPT Desktop** — using the [`grafana/mcp-grafana`](https://hub.docker.com/r/grafana/mcp-grafana) Docker image.
 
 This lets you query and manage a local Grafana instance directly from your AI assistant: list dashboards, inspect datasources, query Prometheus, and more, all through natural language.
@@ -37,7 +39,6 @@ This lets you query and manage a local Grafana instance directly from your AI as
 
 Your desktop client launches the MCP server as a short-lived Docker container on demand, communicating over stdio. The MCP server authenticates to your local Grafana instance using a service account token and exposes Grafana's API as a set of callable tools.
 
-![Architecture diagram](docs/mcp-grafana-poc1.png)
 
 ---
 

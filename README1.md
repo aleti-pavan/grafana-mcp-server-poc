@@ -37,7 +37,7 @@ This lets you query and manage a local Grafana instance directly from your AI as
 
 Your desktop client launches the MCP server as a short-lived Docker container on demand, communicating over stdio. The MCP server authenticates to your local Grafana instance using a service account token and exposes Grafana's API as a set of callable tools.
 
-![Architecture diagram](docs/mcp-grafana-poc.png)
+![Architecture diagram](docs/mcp-grafana-poc1.png)
 
 ---
 

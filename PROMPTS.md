@@ -1,4 +1,4 @@
-Prompt to inspect users, service accounts and dashboards
+### 1. Prompt to inspect users, service accounts and dashboards
 
 ```
 Using the connected Grafana MCP config, please inspect my Grafana instance and report:
@@ -20,7 +20,7 @@ Using the connected Grafana MCP config, please inspect my Grafana instance and r
 Please summarize the totals for users, service accounts, and datasources at the top, then provide the detailed lists below.
 ```
 
-Prompt to create redis and java spring boot dashboard. 
+### 2. Prompt to create redis and java spring boot dashboard. 
 
 ```
 
@@ -75,7 +75,7 @@ Tasks:
    - Any assumptions made about metric names
 ```
 
-Clean all the resources we created by above prompt. 
+### 3. Clean all the resources we created by above prompt. 
 
 ```
 Using the connected Grafana MCP config, delete only the Grafana resources that were created by our earlier setup prompt/session.

@@ -1,6 +1,6 @@
 # Grafana MCP Local POC
 
-![Architecture diagram](docs/mcp-grafana-poc1.png)
+![Architecture diagram](docs/mcp-grafana-poc.png)
 
 Run Grafana + Prometheus locally and connect them to desktop MCP clients — **Claude Desktop** and **Codex / ChatGPT Desktop** — using the [`grafana/mcp-grafana`](https://hub.docker.com/r/grafana/mcp-grafana) Docker image.
 
